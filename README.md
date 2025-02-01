@@ -1,9 +1,30 @@
-# consumer-complaints-kr
-한국소비자원_소비자_피해구제_정보_시각화
-데이터 출처:
-공공데이터포털 
-한국소비자원 소비자 피해구제 정보
-https://www.data.go.kr/data/3040720/fileData.do
-![image](https://github.com/user-attachments/assets/c42bbefa-ae0e-4aee-b59d-63a72d92ce6b)
+# 한국소비자원 소비자 피해구제 정보 시각화
 
-소비규제의 나이 분포와 청구이유 분포를 알고 싶어서
+이 프로젝트는 **한국소비자원**의 소비자 피해구제 정보를 시각화하는 프로젝트입니다. 소비자 피해와 관련된 데이터 분석을 통해 다양한 통찰을 제공하고자 합니다.
+
+### 데이터 출처
+- **출처**: [공공데이터포털 - 한국소비자원 소비자 피해구제 정보](https://www.data.go.kr/data/3040720/fileData.do)
+
+![Consumer Complaints](https://github.com/user-attachments/assets/c42bbefa-ae0e-4aee-b59d-63a72d92ce6b)
+
+### 분석 목표
+이 프로젝트의 주요 목표는 두 가지입니다:
+1. **소비자 피해구제의 나이 분포** 분석
+2. **청구 이유**에 대한 분포 분석
+
+### 분석 과정
+1. **데이터 수집**: 공공데이터포털에서 제공하는 데이터를 다운로드하여 사용.
+2. **데이터 전처리**: 결측치 처리, 데이터 정제 등을 통해 분석 가능한 형태로 변환.
+3. **분석**:
+   - 나이별 소비자 피해구제 분포 시각화
+   - 청구 이유별 피해구제 분포 시각화
+4. **결과 시각화**: 분석 결과를 시각적으로 표현하여 이해하기 쉽게 제공합니다.
+
+### 사용된 기술
+- Python
+- pandas, numpy, matplotlib, seaborn
+
+### 프로젝트 실행 방법
+1. 레포지토리를 클론한 후, 필요한 라이브러리를 설치합니다.
+   ```bash
+   pip install -r requirements.txt
