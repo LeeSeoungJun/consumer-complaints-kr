@@ -1,0 +1,14 @@
+{
+  "raw_rows": 105654,
+  "duplicate_rows_removed": 0,
+  "unique_cases": 105654,
+  "gender_counts": {
+    "여자": 58518,
+    "남자": 47136
+  },
+  "female_minus_male_cases": 11382,
+  "period": [
+    "2023-01-02",
+    "2024-12-31"
+  ]
+}
